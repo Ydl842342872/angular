@@ -1,0 +1,16 @@
+
+	<div class="disan">
+		<h1>这是第三个页面</h1>
+		<h2>这是第三个页面</h2>
+		<h3>这是第三个页面</h3>
+		<h4>这是第三个页面</h4>
+		<h5><a href="#/detail/1003">这是第三个页面</a></h5>
+		<ul>
+			
+			<li ng-repeat="item in disan.data">
+				{{ item.activity.name }}
+			</li>
+		</ul>
+	</div>
+	<!--<p ng-repeat="item in disan.data | orderBy : 'name' : false">{{ item.activity.name }} <img ng-src="{{ item.activity.img }}"></p>-->
+	
